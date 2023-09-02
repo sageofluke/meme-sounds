@@ -1,0 +1,99 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    text-align: center;
+    background-color: #fff;
+    /* White background */
+    background-image: url('images/img2.png');
+    /* Default background image for desktop */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #ffebcd;
+    /* Bisque */
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-size: 36px;
+    /* Larger font size for emphasis */
+    color: #ff4500;
+    /* Reddish-Orange */
+}
+
+button {
+    font-size: 24px;
+    /* Larger font size for the button */
+    padding: 10px 20px;
+    background-color: #ff5733;
+    /* Meme Orange */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #e55b2b;
+    /* Darker Orange on hover */
+}
+
+/* Center the image */
+.center-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+/* Make the image responsive */
+.responsive-image {
+    max-width: 100%;
+    /* Ensure the image doesn't exceed its container's width */
+    height: auto;
+    /* Maintain the image's aspect ratio */
+}
+
+
+
+/* Style the GitHub link as a button */
+.github-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    /* Background color for the button */
+    color: #fff;
+    /* Text color */
+    text-decoration: none;
+    /* Remove underline */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Hover effect */
+.github-button:hover {
+    background-color: #555;
+    /* Darker background on hover */
+}
+
+
+
+/* Make the button and audio player responsive */
+@media (max-width: 768px) {
+    button {
+        font-size: 18px;
+        /* Adjust button font size for smaller screens */
+    }
+
+    audio {
+        width: 100%;
+        /* Make the audio player fill the container width */
+    }
+}
